@@ -30,8 +30,11 @@ o	hamcrest-core-1.3
 ### How to run the Junit test cases:
 •	Compile the source code using following command
 	`javac -d classes Prime.java`
+
 	`javac -cp "lib/*;classes/;." TestPrime.java`
+
 •	Run the application using following command
+
 	`java -cp "lib/*;classes/;." org.junit.runner.JUnitCore TestPrime`
 
 
